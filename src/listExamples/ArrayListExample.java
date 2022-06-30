@@ -161,9 +161,71 @@ public class ArrayListExample {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub	
 		ArrayListExample example= new ArrayListExample();
-			example.arrayListExample();
+			
 		//example.syncArrayListExample();
+		
+		//Iterating synchronized ArrayList:
+		//Pen
+		//NoteBook
+		//Ink
+		//Final List: [Pen, NoteBook, Ink]
 
+		example.arrayListExample();
+			//output
+//					[Audi, Benz, Bugatti, Aston martin]
+//					[Mustang, Audi, Benz, Bugatti, Aston martin]
+//					Index position of Audi is :1
+//					Index position of Ambassador is :-1
+//					[Mustang, Audi, Benz, Bugatti, Aston martin, Mustang]
+//					Index position of Mustang is :0
+//					Last Index position of Mustang is :5
+//					New List copied :[Mustang, Audi, Benz, Bugatti, Aston martin, Mustang]
+//					List after clearing []
+//					After adding null [null]
+//					New list after adding the old list at 0th position :[Mustang, Audi, Benz, Bugatti, Aston martin, Mustang, null, mango, Banana]
+//					List after updating the last two elements : [Mustang, Audi, Benz, Bugatti, Aston martin, Mustang, Tata, Civic, Banana]
+//					After removing :[Mustang, Audi, Benz, Bugatti, Aston martin, Mustang, Civic, Banana]
+//					After removing Civic: [Mustang, Audi, Benz, Bugatti, Aston martin, Mustang, Banana]
+//					Element at 5th Position Mustang
+//					This list is empty. True or False? false
+//					[Mustang, Audi, Benz, Bugatti, Aston martin, Mustang, Banana]
+//					element at 0th position Mustang
+//					element at 1th position Audi
+//					element at 2th position Benz
+//					element at 3th position Bugatti
+//					element at 4th position Aston martin
+//					element at 5th position Mustang
+//					element at 6th position Banana
+//					List elements Mustang
+//					List elements Audi
+//					List elements Benz
+//					List elements Bugatti
+//					List elements Aston martin
+//					List elements Mustang
+//					List elements Banana
+//					Forward Iteration : Mustang
+//					Forward Iteration : Audi
+//					Forward Iteration : Benz
+//					Forward Iteration : Bugatti
+//					Forward Iteration : Aston martin
+//					Forward Iteration : Mustang
+//					Forward Iteration : Banana
+//					Reverse Iteration : Banana
+//					Reverse Iteration : Mustang
+//					Reverse Iteration : Aston martin
+//					Reverse Iteration : Bugatti
+//					Reverse Iteration : Benz
+//					Reverse Iteration : Audi
+//					Reverse Iteration : Mustang
+//					Forward Only:Mustang
+//					Forward Only:Audi
+//					Forward Only:Benz
+//					Forward Only:Bugatti
+//					Forward Only:Aston martin
+//					Forward Only:Mustang
+//					Forward Only:Banana
+//					Reading the list valuesMustang
+//					Dude! You are trying to modify a list while a read operation is happening
 	}
 
 }

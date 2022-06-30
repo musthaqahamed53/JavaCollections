@@ -27,7 +27,7 @@ public class VectorExample {
 
 
 	public void vectorExample(){
-		//Ways to create a Vectr Object
+		//Ways to create a Vector Object
 		Vector<String> vector= new Vector<String>();
 		//Vector vector = new Vector(3);Vector object= new Vector(int initialCapacity)
 		//Vector vector= new Vector(4, 6); Vector object= new vector(int initialcapacity, capacityIncrement)
