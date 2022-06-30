@@ -21,7 +21,7 @@ public class HashSetExample {
 	 *9. Implements Serializable and Cloneable?-> Yes
 	 *10. Data are stored based on hashcode, so search is very effective.
 	 *11. Fill Ratio or Load factor:0.75 or 75%
-	 *12.Default capacity-16
+	 *12.Default capacity-16 
 	 */
 
 	/*
