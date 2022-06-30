@@ -49,7 +49,7 @@ public class TreeSetExample {
 		System.out.println("Comparator returns null if the sorting is default natural order :"+ treeSet.comparator());
 		//Adding null to a non empty tree set causes null pointer excpetion
 		//treeSet.add(null);
-		/*null can be easily added if the tree set is empty. If there are any elements present, the
+		/*null can be easily added if the tree set is empty.(until 1.5) If there are any elements present, the
 		 * comparator will check for the sorting order between the previosly added element and 
 		 * the null. Since it compares null with the objects exisiting we are getting NPE.
 		 * Same is the case, if we add null first and add other elements, NPE will happen.
